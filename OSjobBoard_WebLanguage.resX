@@ -1,0 +1,324 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="eSpace#CurrencyValidatorMsg" xml:space="preserve">
+    <value>Currency expected!</value>
+  <comment>OSjobBoard_Web - CurrencyValidatorMsg</comment></data>
+  <data name="eSpace#DateTimeValidatorMsg" xml:space="preserve">
+    <value>DateTime expected!</value>
+  <comment>OSjobBoard_Web - DateTimeValidatorMsg</comment></data>
+  <data name="eSpace#DateValidatorMsg" xml:space="preserve">
+    <value>Date expected!</value>
+  <comment>OSjobBoard_Web - DateValidatorMsg</comment></data>
+  <data name="eSpace#DecimalValidatorMsg" xml:space="preserve">
+    <value>Decimal expected!</value>
+  <comment>OSjobBoard_Web - DecimalValidatorMsg</comment></data>
+  <data name="eSpace#EmailValidatorMsg" xml:space="preserve">
+    <value>Email expected!</value>
+  <comment>OSjobBoard_Web - EmailValidatorMsg</comment></data>
+  <data name="eSpace#IntegerValidatorMsg" xml:space="preserve">
+    <value>Integer expected!</value>
+  <comment>OSjobBoard_Web - IntegerValidatorMsg</comment></data>
+  <data name="eSpace#MandatoryValidatorMsg" xml:space="preserve">
+    <value>Required field!</value>
+  <comment>OSjobBoard_Web - MandatoryValidatorMsg</comment></data>
+  <data name="eSpace#NumericPasswordValidatorMsg" xml:space="preserve">
+    <value>Numeric Password expected!</value>
+  <comment>OSjobBoard_Web - NumericPasswordValidatorMsg</comment></data>
+  <data name="eSpace#PhoneNumberValidatorMsg" xml:space="preserve">
+    <value>Phone Number expected!</value>
+  <comment>OSjobBoard_Web - PhoneNumberValidatorMsg</comment></data>
+  <data name="eSpace#TextValidatorMsg" xml:space="preserve">
+    <value>Text expected!</value>
+  <comment>OSjobBoard_Web - TextValidatorMsg</comment></data>
+  <data name="eSpace#TimeValidatorMsg" xml:space="preserve">
+    <value>Time expected!</value>
+  <comment>OSjobBoard_Web - TimeValidatorMsg</comment></data>
+  <data name="xeFyC1fl2U6Yqq1aKaCkBQ#Title.-2056206619.1" xml:space="preserve">
+    <value>Internal Error</value>
+  <comment>OSjobBoard_Web / Common / InternalError</comment></data>
+  <data name="3m5bo2xq9kSJum8_WAWZnA#Value" xml:space="preserve">
+    <value>Internal Error</value>
+  <comment>OSjobBoard_Web / Common / InternalError / Web Block / MainContent / Web Block / Content / Title / Text - Value</comment></data>
+  <data name="BbkgwYvbSUasGhUfpXZUmw#Title.398378907.1" xml:space="preserve">
+    <value>Invalid Permissions</value>
+  <comment>OSjobBoard_Web / Common / InvalidPermissions</comment></data>
+  <data name="QKgjc5kyL0aY+K2dkz4l_w#Value" xml:space="preserve">
+    <value>Invalid Permissions</value>
+  <comment>OSjobBoard_Web / Common / InvalidPermissions / Web Block / MainContent / Web Block / Content / Title / Text - Value</comment></data>
+  <data name="XrbaVHyJo0izlvjOq3Xygg#Value" xml:space="preserve">
+    <value>Skip to Content (Press Enter)</value>
+  <comment>OSjobBoard_Web / Common / Layout_Website / Web Block / Header / Container / Link / Text - Value</comment></data>
+  <data name="RByrCGPnAkeryq2Db6n8RA#Value" xml:space="preserve">
+    <value>Skip to Content (Press Enter)</value>
+  <comment>OSjobBoard_Web / Common / LayoutSideMenu / Web Block / Navigation / Link / Text - Value</comment></data>
+  <data name="FvL_bFDoxkWtQgct+BrtGw#Value" xml:space="preserve">
+    <value>Skip to Content (Press Enter)</value>
+  <comment>OSjobBoard_Web / Common / LayoutTopMenu / Web Block / Header / Container / Link / Text - Value</comment></data>
+  <data name="AB72AaFvZ0KHIik9GRLCWQ#Title.73596745.1" xml:space="preserve">
+    <value>Login</value>
+  <comment>OSjobBoard_Web / Common / Login</comment></data>
+  <data name="owiqQp4KDkaiV11FT6aIpw#Label.-2013539391.1" xml:space="preserve">
+    <value>Log In</value>
+  <comment>OSjobBoard_Web / Common / Login / Web Block / Login / Web Block / Login / Container / Button</comment></data>
+  <data name="q_Luuh_Uak2on6Pfd9IJWw#Value" xml:space="preserve">
+    <value>Forgot password?</value>
+  <comment>OSjobBoard_Web / Common / Login / Web Block / Login / Web Block / Login / Container / Container / Link / Text - Value</comment></data>
+  <data name="00pLi_rgNUiGlOm0EPekEw#Value" xml:space="preserve">
+    <value>Log in to your account</value>
+  <comment>OSjobBoard_Web / Common / Login / Web Block / Login / Web Block / Login / Container / Container / Text - Value</comment></data>
+  <data name="bklZ7h+ifEmw486VYD85tw#Value" xml:space="preserve">
+    <value>Password</value>
+  <comment>OSjobBoard_Web / Common / Login / Web Block / Login / Web Block / Login / Container / Container / Web Block / Label / Text - Value</comment></data>
+  <data name="tf4DfIMYaUmx89ZhzVohbg#Value" xml:space="preserve">
+    <value>Email Address</value>
+  <comment>OSjobBoard_Web / Common / Login / Web Block / Login / Web Block / Login / Container / Container / Web Block / Label / Text - Value</comment></data>
+  <data name="IMDWvtthhUmL_6YbrSVFEg#Value" xml:space="preserve">
+    <value>Login</value>
+  <comment>OSjobBoard_Web / Common / LoginInfo / Container / IsLoggedIn / IfBranch / Login / Link / Text - Value</comment></data>
+  <data name="au7r8rFYhkqY+mG4V9WxTw#Title.-1180696926.1" xml:space="preserve">
+    <value>My Info</value>
+  <comment>OSjobBoard_Web / Common / MyInfo</comment></data>
+  <data name="KCmwAKtsQE6nv8lF4E6ypA#Value" xml:space="preserve">
+    <value>My Info</value>
+  <comment>OSjobBoard_Web / Common / MyInfo / Web Block / Title / Text - Value</comment></data>
+  <data name="jPEdFrs1DUe2wrpNId2dhg#Title.2018682729.1" xml:space="preserve">
+    <value>Cities</value>
+  <comment>OSjobBoard_Web / MainFlow / Cities</comment></data>
+  <data name="bq3UCS2c1Uyn0zvWy4UXRQ#Value" xml:space="preserve">
+    <value>Create a new City</value>
+  <comment>OSjobBoard_Web / MainFlow / Cities / Web Block / Actions / Link / Text - Value</comment></data>
+  <data name="A_BdUA9O_Eugep9q_plnLA#Value" xml:space="preserve">
+    <value>State</value>
+  <comment>OSjobBoard_Web / MainFlow / Cities / Web Block / MainContent / CityTable_Wrapper / CityTable / Header Row / Cell / Text - Value</comment></data>
+  <data name="dfzgiibv60y54ySbTFf_Gg#Value" xml:space="preserve">
+    <value>Name</value>
+  <comment>OSjobBoard_Web / MainFlow / Cities / Web Block / MainContent / CityTable_Wrapper / CityTable / Header Row / Cell / Text - Value</comment></data>
+  <data name="Cn2lc8MnSEeNmoY+TgrETQ#Label.-1822469688.1" xml:space="preserve">
+    <value>Search</value>
+  <comment>OSjobBoard_Web / MainFlow / Cities / Web Block / MainContent / CityTable_Wrapper / Filters_Wrapper / Button</comment></data>
+  <data name="R5M371f_EE6TuzaqUpoQUg#Label.78851375.1" xml:space="preserve">
+    <value>Reset</value>
+  <comment>OSjobBoard_Web / MainFlow / Cities / Web Block / MainContent / CityTable_Wrapper / Filters_Wrapper / Button</comment></data>
+  <data name="8omBThXpWUqYPi0TcfkWEQ#Title.1382333483.1" xml:space="preserve">
+    <value>New City</value>
+  <comment>OSjobBoard_Web / MainFlow / CityDetail</comment></data>
+  <data name="5cE1j_NGPUmb1khxGV7eZA#Label.2011110042.1" xml:space="preserve">
+    <value>Cancel</value>
+  <comment>OSjobBoard_Web / MainFlow / CityDetail / Web Block / MainContent / CityForm / content / Container / Button</comment></data>
+  <data name="b5u_jSQuaUSROX5FH8Y+zQ#Label.2569629.1" xml:space="preserve">
+    <value>Save</value>
+  <comment>OSjobBoard_Web / MainFlow / CityDetail / Web Block / MainContent / CityForm / content / Container / Button</comment></data>
+  <data name="Kqx9E+9RIECp8ENzsijflQ#Value" xml:space="preserve">
+    <value>New City</value>
+  <comment>OSjobBoard_Web / MainFlow / CityDetail / Web Block / Title / If / IfBranch / Text - Value</comment></data>
+  <data name="5lgRsS9l30iaqoqppdhQVw#Title.-938362220.1" xml:space="preserve">
+    <value>Countries</value>
+  <comment>OSjobBoard_Web / MainFlow / Countries</comment></data>
+  <data name="6eViE1MGD0O_nYQPtk6CuA#Value" xml:space="preserve">
+    <value>Create a new Country</value>
+  <comment>OSjobBoard_Web / MainFlow / Countries / Web Block / Actions / Link / Text - Value</comment></data>
+  <data name="7AtkWZWCdkOMzIeyZxZ+DQ#Value" xml:space="preserve">
+    <value>Name</value>
+  <comment>OSjobBoard_Web / MainFlow / Countries / Web Block / MainContent / CountryTable_Wrapper / CountryTable / Header Row / Cell / Text - Value</comment></data>
+  <data name="SYUjsbqEcEqGdLTL_dzIsA#Label.-1822469688.1" xml:space="preserve">
+    <value>Search</value>
+  <comment>OSjobBoard_Web / MainFlow / Countries / Web Block / MainContent / CountryTable_Wrapper / Filters_Wrapper / Button</comment></data>
+  <data name="y5XsRif44kmq5R8CuGHvGw#Label.78851375.1" xml:space="preserve">
+    <value>Reset</value>
+  <comment>OSjobBoard_Web / MainFlow / Countries / Web Block / MainContent / CountryTable_Wrapper / Filters_Wrapper / Button</comment></data>
+  <data name="It_WhXJF9kqqhMRvaMAdHQ#Title.1122843862.1" xml:space="preserve">
+    <value>New Country</value>
+  <comment>OSjobBoard_Web / MainFlow / CountryDetail</comment></data>
+  <data name="F_jvXG0lskC9PSsp36vdwQ#Label.2011110042.1" xml:space="preserve">
+    <value>Cancel</value>
+  <comment>OSjobBoard_Web / MainFlow / CountryDetail / Web Block / MainContent / CountryForm / content / Container / Button</comment></data>
+  <data name="MvTQKdw6i0SmY4U7+qFNow#Label.2569629.1" xml:space="preserve">
+    <value>Save</value>
+  <comment>OSjobBoard_Web / MainFlow / CountryDetail / Web Block / MainContent / CountryForm / content / Container / Button</comment></data>
+  <data name="S_ldu54RsUyboUKXt_ZkYg#Value" xml:space="preserve">
+    <value>New Country</value>
+  <comment>OSjobBoard_Web / MainFlow / CountryDetail / Web Block / Title / If / IfBranch / Text - Value</comment></data>
+  <data name="ox3lilkubEuQ4zIZZaxpoA#Title.35096844.1" xml:space="preserve">
+    <value>New Job Position</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositionDetail</comment></data>
+  <data name="BzB3sMmHT0+WLYjDAn6fJQ#Label.2011110042.1" xml:space="preserve">
+    <value>Cancel</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositionDetail / Web Block / MainContent / JobPositionForm / content / Container / Button</comment></data>
+  <data name="xTxel3eeQUuO+ubX73xsAQ#Label.2569629.1" xml:space="preserve">
+    <value>Save</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositionDetail / Web Block / MainContent / JobPositionForm / content / Container / Button</comment></data>
+  <data name="a75FguH9F0S2W8tfPnDXnQ#Value" xml:space="preserve">
+    <value>New Job Position</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositionDetail / Web Block / Title / If / IfBranch / Text - Value</comment></data>
+  <data name="mKYOh1Iq1k2KUby_wmGQbA#Title.-1378626681.1" xml:space="preserve">
+    <value>Job Positions</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositions</comment></data>
+  <data name="q6OZ+FwK4E6+s+jCwhLj6A#Value" xml:space="preserve">
+    <value>Create a new Job Position</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositions / Web Block / Actions / Link / Text - Value</comment></data>
+  <data name="enSRTpoFVkK4j8RdWwMIfQ#Label.78851375.1" xml:space="preserve">
+    <value>Reset</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositions / Web Block / MainContent / JobPositionTable_Wrapper / Filters_Wrapper / Button</comment></data>
+  <data name="IzxVp+3TUk6I5GOgXUONFw#Label.-1822469688.1" xml:space="preserve">
+    <value>Search</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositions / Web Block / MainContent / JobPositionTable_Wrapper / Filters_Wrapper / Button</comment></data>
+  <data name="TkGoTdmzPkii_ts5sUdkYQ#Value" xml:space="preserve">
+    <value>Date</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositions / Web Block / MainContent / JobPositionTable_Wrapper / JobPositionTable / Header Row / Cell / Container / Text - Value</comment></data>
+  <data name="qJID12IblkOdhkt3g_eOXw#Value" xml:space="preserve">
+    <value>Name</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositions / Web Block / MainContent / JobPositionTable_Wrapper / JobPositionTable / Header Row / Cell / Text - Value</comment></data>
+  <data name="rMTvIRQGRk+EZ0pLRHmTUg#Value" xml:space="preserve">
+    <value>Description</value>
+  <comment>OSjobBoard_Web / MainFlow / JobPositions / Web Block / MainContent / JobPositionTable_Wrapper / JobPositionTable / Header Row / Cell / Text - Value</comment></data>
+  <data name="askGBaKraES1JVeXSB4EDw#Value" xml:space="preserve">
+    <value>Jobs per Title</value>
+  <comment>OSjobBoard_Web / MainFlow / jobsDashboard / Web Block / MainContent / Web Block / Column1 / Web Block / Title / Text - Value</comment></data>
+  <data name="zDLtxIaX9U2dV5wb0rwEDw#Value" xml:space="preserve">
+    <value>Dashboard</value>
+  <comment>OSjobBoard_Web / MainFlow / jobsDashboard / Web Block / Title / Text - Value</comment></data>
+  <data name="FaPsDROXd0ypcu2NDZ4jaA#Title.-82249263.1" xml:space="preserve">
+    <value>New State</value>
+  <comment>OSjobBoard_Web / MainFlow / StateDetail</comment></data>
+  <data name="hcVsO7EnUE60HeuFgprizA#Label.2011110042.1" xml:space="preserve">
+    <value>Cancel</value>
+  <comment>OSjobBoard_Web / MainFlow / StateDetail / Web Block / MainContent / StateForm / content / Container / Button</comment></data>
+  <data name="RGKbiWbKvUWh4HHQXcF8Cw#Label.2569629.1" xml:space="preserve">
+    <value>Save</value>
+  <comment>OSjobBoard_Web / MainFlow / StateDetail / Web Block / MainContent / StateForm / content / Container / Button</comment></data>
+  <data name="1Q9Ja5slUUK7LhvWGOdDJw#Value" xml:space="preserve">
+    <value>New State</value>
+  <comment>OSjobBoard_Web / MainFlow / StateDetail / Web Block / Title / If / IfBranch / Text - Value</comment></data>
+  <data name="SrlnM2k5i02MwP1sQSVZoA#Title.-1808614878.1" xml:space="preserve">
+    <value>States</value>
+  <comment>OSjobBoard_Web / MainFlow / States</comment></data>
+  <data name="1bXKChBiZEOJPQ+xSr9fUw#Value" xml:space="preserve">
+    <value>Create a new State</value>
+  <comment>OSjobBoard_Web / MainFlow / States / Web Block / Actions / Link / Text - Value</comment></data>
+  <data name="UvfJvww830G8XS+H5YfivQ#Label.78851375.1" xml:space="preserve">
+    <value>Reset</value>
+  <comment>OSjobBoard_Web / MainFlow / States / Web Block / MainContent / StateTable_Wrapper / Filters_Wrapper / Button</comment></data>
+  <data name="vJ6id3FgIkWPWO4lLRe6+g#Label.-1822469688.1" xml:space="preserve">
+    <value>Search</value>
+  <comment>OSjobBoard_Web / MainFlow / States / Web Block / MainContent / StateTable_Wrapper / Filters_Wrapper / Button</comment></data>
+  <data name="2ZznQ5ZTCUuxPxPzFQFbLw#Value" xml:space="preserve">
+    <value>Name</value>
+  <comment>OSjobBoard_Web / MainFlow / States / Web Block / MainContent / StateTable_Wrapper / StateTable / Header Row / Cell / Text - Value</comment></data>
+</root>
